@@ -4,7 +4,7 @@
 
 #### demo.py
 
-'''python
+```python
 from lib_plugin import Plugin, Module, PluginManager
 
 
@@ -26,7 +26,7 @@ if __name__ == '__main__':
         pluginB = Plugin(_plugin_classB)
         pluginB.init()
         pluginB.destory()
-'''
+```
 
 
 #### demo_module.py
